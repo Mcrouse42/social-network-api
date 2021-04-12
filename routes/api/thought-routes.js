@@ -7,7 +7,6 @@ const {
     updateThought,
     removeThought
 } = require('../../controllers/thought-controller');
-const { updateMany } = require('../../models/User');
 
 router.route('/')
     .get(getAllThoughts);
